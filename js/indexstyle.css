@@ -1,0 +1,116 @@
+/*Globals*/
+
+/*login*/
+/*button */
+
+
+
+html,
+body {
+  height: 100%;
+  /* background-color: #333; */
+}
+
+/*header*/
+.navbar {
+  margin-bottom: 2rem;
+  height:4rem;
+  background-color: #333; 
+}
+
+.navbar-title {
+  margin-bottom:0;
+  color: #fff; 
+  
+}
+
+
+
+
+@media (min-width: 48em) {
+  .navbar-title{
+    float: left;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+
+
+
+/*main*/
+.main {
+  padding: 0 1.5rem;
+}
+.main .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+  
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+  width: 100%;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 150%;
+  height: 32rem;
+}
+
+
+#videoBox { 
+  /* border: 10px solid #212223; 
+  transition: 0.5s; */ 
+  height: 30rem;
+  width: 70%;
+} 
+.video { 
+  width: 100%; 
+  vertical-align: bottom; 
+
+} 
+  
+#videoBox.in { 
+  animation: ac 1s; 
+} 
+  
+#videoBox.out { 
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  width: 300px; 
+  z-index: 999; 
+  animation: an 0.5s; 
+}
+
+@media (min-width: 40em) {
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+/*Footer*/
+.footer {
+  color: #fff;
+}
